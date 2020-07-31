@@ -48,7 +48,6 @@ header {
 /*ヘッダー右寄せ*/
 .header-right {
   float: right;
-  height: 65px;
 }
 
 /*右側画像外側のリンクの内容*/

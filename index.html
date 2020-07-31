@@ -69,26 +69,46 @@
                   </div>        
           </li>
         </ul>
-        
+  <!--コンタクト--!>      
         <h2 id="contactus">contact us</h2>
       </div>
+<form method="post" action="php/contact.php" name="contact-form" id="working_form" class="AVAST_PAM_nonloginform">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <input name="name" id="name" type="text" class="form-control" placeholder="Your name...">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group mt-2">
+                                        <input name="email" id="email" type="email" class="form-control" placeholder="Your email...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <input type="text" class="form-control" id="subject" placeholder="Your Subject..">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="form-group mt-2">
+                                        <textarea name="comments" id="comments" rows="4" class="form-control" placeholder="Your message..."></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 text-right">
+                                    <input type="submit" id="submit" name="send" class="submitBtn btn btn-custom text-uppercase" value="Submit">
+                                    <div id="simple-msg"></div>
+                                </div>
+                            </div>
+                        </form>
+     <span class="btn message">さっそく開発する</span>
 
 
-
-
-
-
-
-  
-  <div class="message-wrapper">
-    <div class="container">
-      <div class="heading">
-        <h2>さぁ、あなたもProgateでプログラミングを学んでみませんか?</h2>
-        <h3>Let's learn to code, learn to be creative!</h3>
-      </div>
-      <span class="btn message">さっそく開発する</span>
-    </div>
-  </div>
   <footer>
     <div class="container">
       <img src="https://prog-8.com/images/html/advanced/footer_logo.png">

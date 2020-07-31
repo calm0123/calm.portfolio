@@ -99,6 +99,7 @@ header {
   background-color: transparent;
   cursor: pointer;
   opacity: 0.7;
+  display: inline-block;
 }
 
 

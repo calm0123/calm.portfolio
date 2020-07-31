@@ -13,7 +13,7 @@ a {
 
 
 
-/*トップページ*/
+/*トップページ画像*/
 
 .top-wrapper {
   padding: 180px 0 150px 0;
@@ -22,6 +22,18 @@ a {
   color: white;
   text-align: center;
 }
+
+/*ヘッダー全体・固定*/
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34,49,52,0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
 /*calm,about me,portfolio,contactにかかっている*/
 .logo {
   padding: 10px 20px;
@@ -36,7 +48,6 @@ a {
 /*ヘッダー右寄せ*/
 .header-right {
   float: right;
-  margin-right: -25px;
   height: 65px;
 }
 
@@ -105,17 +116,6 @@ a {
 /*問い合わせ乗せた時*/
 .btn:hover {
   opacity: 1;
-}
-
-/*ヘッダー全体・固定*/
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34,49,52,0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
 }
 
 

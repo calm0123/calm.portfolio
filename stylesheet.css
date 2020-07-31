@@ -24,7 +24,7 @@ a {
 }
 
 .logo {
-  filter: brightness(1) invert(0);
+  padding: 10px 20px;
 }
 
 .container {

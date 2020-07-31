@@ -23,6 +23,10 @@ a {
   text-align: center;
 }
 
+.logo {
+  filter: brightness(1) invert(0);
+}
+
 .container {
   width: 100%;
   padding: 0 15px;

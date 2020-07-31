@@ -52,7 +52,7 @@ header {
 
 /*右側画像外側のリンクの内容*/
 .header-right a {
-  line-height: 65px;
+  line-height: 60px;
   color: white;
   display: block;
   float: left;
@@ -93,7 +93,7 @@ header {
   display: inline-block;
   padding: 0.5em 1em 0.3em;
   position: relative;
-  color: #990000;
+  color: white;
   border: solid 2px #990000;
   border-radius: 5px;
   background-color: transparent;
@@ -101,7 +101,8 @@ header {
 }
 
 .Button-style:before {
-  background-color: #f1e2e2;
+  background-color: white;
+  opacity: 0.8;
   border-radius: 5px;
   content: "";
   width: 100%;
@@ -112,33 +113,14 @@ header {
   z-index: -1;
 }
 
-/*問い合わせ*/
-.btn-wrapper {
-  text-align: center;
+.Button-style:hover {
+  background-color: rgba(255,255,255,0.3);
 }
 
-/*問い合わせの中*/
-.btn-wrapper p {
-  margin-bottom: 20px;
-}
 
-/*問い合わせの色*/
-.signup {
-  background-color: #239b76;
-}
-
-/*問い合わせ全般*/
-.btn {
-  padding: 8px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
 
 /*問い合わせ乗せた時*/
-.btn:hover {
+.Button-style:hover {
   opacity: 1;
 }
 

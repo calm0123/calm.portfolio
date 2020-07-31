@@ -121,11 +121,15 @@ header {
 
 
 /*about画像*/
+
+.about-image {
+width: 35%;
+margin-right: auto;
+}
+
 .frame {
 	display: inline-block;
 	position: relative;
-  width: 35%;
-  margin-right: auto;
   
 }
 .frame:after {

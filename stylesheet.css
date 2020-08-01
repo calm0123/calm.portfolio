@@ -9,162 +9,150 @@ body {
 
 a {
   text-decoration: none;
+  display: inline-block ;
 }
 
+/*リストの点消去*/
 li {
   list-style: none;
+}
 
-
-/*トップページ画像*/
+/*ヘッダーと本文にかかっている*/
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 .top-wrapper {
-  padding: 180px 0 150px 0;
-  background-image: url(https://github.com/calm0123/calm.portfolio/blob/master/gahag-0083461077.jpg?raw=true);
+  padding: 180px 0 100px 0;
+  background-image: url(top.png);
   background-size: cover;
   color: white;
   text-align: center;
 }
 
-/*ヘッダーの黒い所*　/
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.btn-wrapper {
+  text-align: center;
+}
+
+.btn-wrapper p {
+  margin-bottom: 20px;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
 
 header {
   height: 65px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
   position :fixed;
-  top: 0;　/*上からの距離*/
+  top: 0;
   z-index: 10;
 }
 
-/*ヘッダーのアイコン全て*/
-.top-header {
-  margin: 0 auto;　/*中央寄せ*/
-  width: 1170px;
-  height: 65px;
- }
-
-
-/*calm,about me,portfolio,contactにかかっている*/
-.logo {
-  padding: 10px 20px;
-  width: 124px;
-}
-
-/*calm左寄せ*/
-.header-left {
+.calm {
   width: 124px;
   margin-top: 20px;
 }
 
-/*左側画像外側のリンクの内容*/
-.header-left a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: inline-block;
-  float: right;
+/*ヘッダーcalmにかかってる。要素を横並びに*/
+.header-left {
+  float: left;
 }
 
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
 
-/*右側画像外側のリンクの内容*/
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
-  display: inline-block;
+  display: block;
   float: left;
   transition: all 0.5s;
 }
 
-/*右側画像外側のリンクの内容載せた時*/
 .header-right a:hover {
   background-color: rgba(255,255,255,0.3);
 }
 
-/*トップ画像の文字*/
-.container {
-  width: 50%;
-  padding: 0 15px;
-  margin-right: auto;
+.lesson-wrapper {
+  height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
 }
 
-/*ロゴ*/
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-weight: bold;
-  font-size: 60px;
-  letter-spacing: 5px;
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
 }
 
-/*誰もが～*/
-.top-wrapper p {
-  opacity: 0.7;
-  font-size: 18px;
-  margin-bottom: 40px;
+.heading h2 {
+  font-weight: normal;
 }
 
-/*問い合わせ*/
-.Button-style {
-  font-size: 18px;
-  display: inline-block;
-  padding: 0.5em 1em 0.3em;
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
   position: relative;
-  color: white;
-  border: solid 2px white;
-  border-radius: 5px;
-  cursor: pointer;
-  display: inline-block;
 }
 
-
-/*問い合わせ乗せた時*/
-.Button-style:hover {
-  opacity: 1;
-  background-color: rgba(255,255,255,0.3);
-}
-
-/*about移行アイコン*/
-.fa-arrow-alt-circle-down {
-  margin-right: 5px;
+.lesson-icon p {
+  position: absolute;
+  top: 37%;
+  width: 100%;
   color: white;
 }
-
-.down {
-  display: inline-block;
-  height: 18px;
-}
-
-
-/*about画像*/
-
-.container-about{
-   width: 150px;
-   margin-right:  auto;
-  }
-
-/*画像効果*/
-.frame {
-	display: inline-block;
-	position: relative;
-  
-}
-
-/*画像効果2*/
-.frame:after {
-	position: absolute;
-	display: block;
-	content: "";
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-	transform: rotate(3deg); /* 回転させる */
-	background: #fff;
-	z-index: -1;
-}
-
 
 .text-contents {
   width: 80%;
@@ -211,6 +199,14 @@ footer {
   padding-bottom: 20px;
 }
 
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+}
+
 .clear {
   clear: left;
 }
@@ -225,92 +221,59 @@ footer {
     height: 990px;
   }
 
-/*フッター*/　
   footer {
     text-align: center;
   }
 }
 
-/*コンタクト*/
-.form-kerri .form-control {
-    box-shadow: none !important;
-    height: 50px;
-    border: 2px solid #e0e0e0;
+@media all and (max-width: 750px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+
+  .heading h2 {
+    font-size: 20px;
+  }
 }
-@media (prefers-reduced-motion: reduce)
-.form-control {
-    transition: none;
-}
-.form-control {
+
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+
+  .menu-icon {
     display: block;
+  }
+
+  .top-wrapper .btn {
     width: 100%;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-}
-button, input {
-    overflow: visible;
-}
-button, input, optgroup, select, textarea {
-    margin: 0;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
-user agent stylesheet
-input[type="text" i] {
-    padding: 1px 2px;
-}
-user agent stylesheet
-input {
-    -webkit-writing-mode: horizontal-tb !important;
-    text-rendering: auto;
-    color: -internal-light-dark(black, white);
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    appearance: textfield;
-    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
-    -webkit-rtl-ordering: logical;
-    cursor: text;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    padding: 1px 2px;
-    border-width: 2px;
-    border-style: inset;
-    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(195, 195, 195));
-    border-image: initial;
-}
+  }
 
+  .twitter {
+    margin-top: 10px;
+  }
 
+  .top-wrapper {
+    text-align: left;
+  }
 
-.pagetop{
-  width:140px;
-  heiht:30px;
-  position:fixed;
-  right:0;
-  bottom:0;
-}
-.pagetop a{
-  padding:15px;
-  display:block;
-  text-decoration:none;
-  font-size:12px;
-  background:#000;
-  color:#fff;
+  .top-wrapper h1 {
+    font-size: 24px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+  }
+
+  .lesson {
+    width: 100%;
+  }
+
+  .lesson-wrapper {
+    height: 1700px;
+  }
+
+  .message-wrapper .btn {
+    width: 100%;
+  }
 }

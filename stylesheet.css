@@ -57,7 +57,7 @@ header {
 
 /*右側画像外側のリンクの内容*/
 .header-right a {
-  height: 65px;
+  line-height: 65px;
   padding: 0 25px;
   color: white;
   display: inline-block;
@@ -127,16 +127,19 @@ header {
 
 /*about画像*/
 
-.about-image {
-width: 150px;
-margin-right:  auto;
- }
+.container-about{
+   width: 150px;
+   margin-right:  auto;
+  }
 
+/*画像効果*/
 .frame {
 	display: inline-block;
 	position: relative;
   
 }
+
+/*画像効果2*/
 .frame:after {
 	position: absolute;
 	display: block;

@@ -23,8 +23,8 @@ li {
   margin: 0 auto;
 }
 
-.img-calm {
-  margin: 0 0;
+.container-top {
+  width: 50%
 }
 
 /*トップ画面全体。一番外枠*/

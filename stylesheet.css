@@ -74,6 +74,11 @@ header {
   margin-right: -25px;
 }
 
+.img-calm {
+  heiht: 65px;
+}
+
+
 .header-right a {
   line-height: 65px;
   padding: 0 25px;

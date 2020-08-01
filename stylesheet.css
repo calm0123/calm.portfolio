@@ -11,6 +11,8 @@ a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
 
 
 /*トップページ画像*/
@@ -23,20 +25,20 @@ a {
   text-align: center;
 }
 
-/*ヘッダー全体・固定*/
+/*ヘッダーの黒い所*　/
 
 header {
   height: 65px;
   width: 100%;
   background-color: rgba(34,49,52,0.9);
   position :fixed;
-  top: 0;
+  top: 0;　/*上からの距離*/
   z-index: 10;
 }
 
-/*ヘッダー要素*/
+/*ヘッダーのアイコン全て*/
 .top-header {
-  margin: 0 auto;
+  margin: 0 auto;　/*中央寄せ*/
   width: 1170px;
   height: 65px;
  }
@@ -52,6 +54,15 @@ header {
 .header-left {
   width: 124px;
   margin-top: 20px;
+}
+
+/*左側画像外側のリンクの内容*/
+.header-left a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: inline-block;
+  float: right;
 }
 
 

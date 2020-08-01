@@ -250,3 +250,28 @@ footer {
     width: 100%;
   }
 }
+
+/*aboutのデザイン*/
+.tape-box{
+  margin: 1em 0;
+  padding: 1em;
+  background-color: #ffffcc;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.tape{
+  display: block;
+  background-color: #ccb;
+  opacity: 0.2;
+  transform: rotate(3deg);
+  width: 40%;
+  height: 35px;
+  margin: -2em auto 0 auto;
+  border-left: 3px dotted rgba(0,0,0,.1);
+  border-right: 3px dotted rgba(0,0,0,.1);
+}
+
+.tape-box p{
+  margin: 0;
+  padding: 0;
+}

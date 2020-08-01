@@ -57,7 +57,7 @@ header {
 
 /*右側画像外側のリンクの内容*/
 .header-right a {
-  line-height: 65px;
+  height: 65px;
   padding: 0 25px;
   color: white;
   display: inline-block;

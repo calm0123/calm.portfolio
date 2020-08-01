@@ -11,9 +11,7 @@ a {
   text-decoration: none;
 }
 
-li {
-  list-style: none;
-}
+
 
 /*トップページ画像*/
 
@@ -36,6 +34,14 @@ header {
   z-index: 10;
 }
 
+/*ヘッダー要素*/
+.top-header {
+  margin: 0 auto;
+  width: 1170px;
+  height: 65px;
+ }
+
+
 /*calm,about me,portfolio,contactにかかっている*/
 .logo {
   padding: 10px 20px;
@@ -44,20 +50,17 @@ header {
 
 /*calm左寄せ*/
 .header-left {
-  float: left;
+  width: 124px;
+  margin-top: 20px;
 }
 
-/*ヘッダー右寄せ*/
-.header-right {
-  float: right;
-}
 
 /*右側画像外側のリンクの内容*/
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
   color: white;
-  display: block;
+  display: inline-block;
   float: left;
   transition: all 0.5s;
 }
@@ -125,7 +128,7 @@ header {
 /*about画像*/
 
 .about-image {
-width: 350px;
+width: 150px;
 margin-right:  auto;
  }
 
@@ -208,6 +211,7 @@ footer {
     height: 990px;
   }
 
+/*フッター*/　
   footer {
     text-align: center;
   }

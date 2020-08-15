@@ -78,6 +78,10 @@ header {
   heiht: 65px;
 }
 
+.rightimg {
+  height: 65px;
+}
+
 
 .header-right a {
   line-height: 65px;

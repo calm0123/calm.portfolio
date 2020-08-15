@@ -99,15 +99,31 @@ header {
 /*about横並び*/
 
 .about-main {
-  float:  left;
   width: 100%;
   
 }
 
 /*個人写真*/
 .imgabout {
-  height: 100px;
+  height: 350px;
+  float:  left;
+
 }
+
+/*aboutのデザイン*/
+.loose-leaf{
+  background: #fff8dc;
+  border-left: 5px dotted rgba(0,0,0,.1);
+  box-shadow: 0 0 0 5px #bc8f8f;
+  padding: 1em;
+  margin: 1em 5px;
+}
+
+.loose-leaf p{
+  margin: 0;
+  padding: 0;
+}
+
 
 footer img {
   width: 125px;
@@ -121,19 +137,4 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-}
-
-
-/*aboutのデザイン*/
-.loose-leaf{
-  background: #f8f8f8;
-  border-left: 5px dotted rgba(0,0,0,.1);
-  box-shadow: 0 0 0 5px #f8f8f8;
-  padding: 1em;
-  margin: 1em 5px;
-}
-
-.loose-leaf p{
-  margin: 0;
-  padding: 0;
 }

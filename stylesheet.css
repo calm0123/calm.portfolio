@@ -112,9 +112,9 @@ header {
 
 /*aboutのデザイン*/
 .loose-leaf{
-  background: #fff8dc;
+  background: #fff0f5;
   border-left: 5px dotted rgba(0,0,0,.1);
-  box-shadow: 0 0 0 5px #bc8f8f;
+  box-shadow: 0 0 0 1px #d2b48c;
   padding: 1em;
   margin: 1em 5px;
 }

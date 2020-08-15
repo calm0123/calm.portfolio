@@ -92,6 +92,14 @@ header {
   background-color: rgba(255,255,255,0.3);
 }
 
+
+.about-main {
+  float:  left;
+  width: 100%;
+  
+}
+
+
 .lesson-wrapper {
   height: 580px;
   padding-bottom: 80px;

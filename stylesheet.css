@@ -137,45 +137,48 @@ footer {
 
 
 /*コンタクトフォーム*/
-.btn-social-icon-instagram {
-  text-decoration: none;
-  display: inline-block;
-  text-align: center;
-  color: #2e6ca5;
-  font-size: 25px;
-  text-decoration: none;
-}
-
-.btn-social-icon-instagram:hover {
-  color:#668ad8;
-  transition: .5s;
-}
-
-.btn-social-icon-instagram__square {
-  border-radius: 13px;
+.btn-social-long-insta {
+  /*ボタンの下地*/
+  color: #FFF;/*文字・アイコン色*/
+  border-radius: 7px;/*角丸に*/
   position: relative;
   display: inline-block;
-  width: 50px;
-  height: 50px;
-  font-size: 35px;
-  line-height: 50px;
-  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
-  overflow: hidden
+  height: 50px;/*高さ*/
+  width: 190px;/*幅*/
+  text-align: center;/*中身を中央寄せ*/
+  font-size: 25px;/*文字のサイズ*/
+  line-height: 50px;/*高さと合わせる*/
+  background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;/*グラデーション①*/
+  overflow: hidden;/*はみ出た部分を隠す*/
+  text-decoration:none;/*下線は消す*/
 }
 
-.btn-social-icon-instagram__square:before {
+.btn-social-long-insta:before {
+  /*グラデーション②*/
   content: '';
   position: absolute;
-  top: 23px;
-  left: -18px;
-  width: 60px;
-  height: 60px;
-  background: -webkit-radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
-  background: radial-gradient(#ffdb2c 10%, rgba(255, 105, 34, 0.65) 55%, rgba(255, 88, 96, 0) 70%);
+  top: 0;
+  left: 0;
+  width: 100%;/*全体を覆う*/
+  height: 100%;/*全体を覆う*/
+  background: linear-gradient(15deg, #ffdb2c, rgb(249, 118, 76) 25%, rgba(255, 77, 64, 0) 50%) no-repeat;
 }
 
-.btn-social-icon-instagram__square .fa-instagram {
-  color:white;
-  line-height: 50px;
+.btn-social-long-insta .fa-instagram {
+  /*アイコン*/
+  font-size: 35px;/*アイコンサイズ*/
   position: relative;
-  z-index: 2}
+  top: 4px;/*アイコン位置の微調整*/
+}
+
+.btn-social-long-insta span {
+  /*テキスト*/
+  display:inline-block;
+  position: relative;
+  transition: .5s}
+
+.btn-social-long-insta:hover span {
+  /*ホバーで一周回転*/
+  -webkit-transform: rotateX(360deg);
+  transform: rotateX(360deg);
+}

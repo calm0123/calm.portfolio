@@ -100,14 +100,11 @@ header {
 
 .about-main {
   width: 100%;
-  text-align: center;
 }
 
 /*個人写真*/
 .imgabout {
-  height: 350px;
-  float:  left;
-
+  height: 350px; 
 }
 
 /*aboutのデザイン*/

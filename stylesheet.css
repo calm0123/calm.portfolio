@@ -117,6 +117,7 @@ header {
   box-shadow: 0 0 0 1px #d2b48c;
   padding: 1em;
   margin: 1em 5px;
+  width: 50%;
 }
 
 .loose-leaf p{

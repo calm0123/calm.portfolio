@@ -107,6 +107,13 @@ header {
   height: 350px; 
 }
 
+/*about写真、文字横並び*/
+.box-img,
+.box-text{
+  display: inline-block;
+}
+
+
 /*aboutのデザイン*/
 .loose-leaf{
   float: right;

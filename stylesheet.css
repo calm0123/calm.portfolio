@@ -114,23 +114,54 @@ header {
 }
 
 
-/*aboutのデザイン*/
-.loose-leaf{
-  float: right;
-  background: #fff0f5;
-  border-left: 5px dotted rgba(0,0,0,.1);
-  box-shadow: 0 0 0 1px #d2b48c;
-  padding: 1em;
-  margin: 1em 5px;
-  width: 50%;
-  height: 350px;
+/*aboutのリンクデザイン*/
+.bnt-massage {
+  display: inline-block;
+  min-width: 130px;
+  text-align: center;
+  background-color: #000;
+  font-size: 20px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 16px 10px 40px;
+  position: relative;
+  transition: .9s;
+  border: 1px solid #FFF;
 }
 
-.loose-leaf p{
-  margin: 0;
-  padding: 0;
+.bnt-massage:before {
+  font-family: "FontAwesome";
+  content: "\f0e0";
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  margin-top: -10px;
 }
 
+.bnt-massage span {
+  display: block;
+  position: absolute;
+  background-color: #d9385f;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 34px;
+  font-size: 14px;
+  line-height: 34px;
+  border-radius: 0 0 8px 0;
+  z-index: -1;
+  transition: .5s;
+}
+
+.bnt-massage:hover  {
+  border-radius: 8px 0 0;
+}
+
+.bnt-massage:hover span {
+  transform: translateY(50px);
+}
+/*ここまで*/
 
 footer p {
   color: #b3aeb5;
